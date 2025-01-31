@@ -28,9 +28,6 @@ Function Connect-OPSREST {
 		#--------------------------------------------
 		$params_Auth = @{}
 		
-		#$opsname = 'vrops.csc.nycnet'
-		#$user = 'aschulte@csc.nyc.gov'
-		#$pwd1 = Get-content "C:\Users\ASchulte\Documents\Scripts\$user.cred" | ConvertTo-SecureString
 		Log-It "The user is $($MyCredential.Username)"
 		#$mycred = New-Object -typename System.Management.Automation.PSCredential -ArgumentList $user,$pwd1
 		
